@@ -1,0 +1,257 @@
+.projects-list {
+    width: 100vw;
+    height: auto;
+  }
+  
+  .project-layout-container {
+    width: 100vw;
+    height: auto;
+    display: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .project-list-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  .project-label-container {
+    width: 15em;
+    display: flex;
+    padding: 0.8em;
+    border-radius: 5em;
+    margin-top: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0b0b;
+  }
+  
+  .project-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    
+  }
+  
+  .mobile-project-items-container {
+    display: none;
+  }
+  
+  .project-even-items-container {
+    width: 82vw; 
+    height: auto;
+    padding: 1.4em;
+    margin: 5em;
+    display: grid;
+    grid-template-columns: 55% 50%;  
+  }
+  
+  .project-odd-items-container {
+    width: 82vw; 
+    height: auto;
+    padding: 1.4em;
+    margin: 5em;
+    display: grid;
+    grid-template-columns: 55% 50%;  
+  }
+  
+  .project-thumbnail-item {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-odd-thumbnail-item {
+    width: 100%;
+    height: auto;
+    margin-left: 3em;
+  }
+  
+  .project-details-container {
+    width: 100%;
+    height: auto;
+    display: column;  
+  }
+  
+  .project-name-container {
+    width: 100%;
+    height: 3em;
+  }
+  
+  .project-description-container {
+    width: 100%;
+    height: auto;  
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    font-weight: 300;  
+    color: #000000;
+    line-height: 2em;
+    position: relative;  
+    text-shadow: 0.3px 0.3px #ccc;
+  }
+  
+  .project-even-tools-container {
+    height: auto;  
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em; 
+  }
+  
+  .project-odd-tools-container {
+    height: auto;  
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em; 
+  }
+  
+  .project-tools-item {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.3em;
+    border-radius: 5em;
+    border: 0.5px solid #0c0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background: #0c0b0b;
+  }
+  
+  .project-tools {
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #fff;
+  }
+  
+  .project-link-container {
+    height: auto;
+    margin-top: 1em; 
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .personal-project-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .medium {
+    width: 6em;
+    height: 6em; 
+  }
+  
+  .medium-blog-container {
+  }
+  
+  .github-repo-container {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .github-logo-buttton {
+    width: 12em;
+    height: 4em; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .github-badge-container {
+    width: 11vw; 
+    height: auto;
+    display: flex; 
+  }
+  
+  .mobile-github-badge-container {
+    display: none;
+  }
+  
+  .github-badge-icon {
+    padding: 0.5em;
+  }
+  
+  .playstore-badge-icon {
+    height: 4em;  
+  }
+  
+  .contact-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .contact-item-container{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-label-container {
+    width: 15em;
+    display: flex;
+    padding: 0.8em;
+    border-radius: 5em;
+    margin-top: 1em;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #0c0b0b;
+  }
+  
+  .contact-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .contact-social-icon {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+  }
+  
+  .contact-github-social-icon {
+    width: 3.5em;
+    height: 3.5em;
+    margin: 0.5em;
+  }
+  
+  .contact-medium-social-icon {
+    width: 2.8em;
+    height: 2.8em;
+    margin: 1em;
+  }
+  
+  .contact-footer-container {
+    width: 50em;
+    height: 0.1px;
+    margin-top: 3em;
+    background:rgb(19, 19, 19);
+  }
+  
+  .contact-footer-text {
+    font-size: 0.8rem;
+    color: rgb(19, 19, 19);
+    margin-top: 1em;
+  }
+  
+  
