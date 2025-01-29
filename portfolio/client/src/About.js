@@ -43,6 +43,20 @@ const About = () => {
         <div className="stars"></div>
         <div className="stars2"></div>
         <div className="stars3"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        
+        
+       
+        
     </div>
 
     <div className="bg-pink-950">
