@@ -41,7 +41,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-emerald-900 relative overflow-hidden">
+    <div className="min-h-screen bg-black relative overflow-hidden">
       <div className="starfield absolute inset-0">
         <div className="stars"></div>
         <div className="stars2"></div>
