@@ -107,10 +107,10 @@ const About = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "#1e1e2c" }}
-            contentArrowStyle={{ borderRight: "7px solid white" }}
-            date="2021 - 2022"
-            iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date={<span style={{ color: "white" }}>2024 - 2024</span>}
+            iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<SiReact />}
           >
             <h3 className="vertical-timeline-element-title">ML Intern</h3>
@@ -122,10 +122,10 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "#1e1e2c" }}
-            contentArrowStyle={{ borderRight: "7px solid white" }}
-            date="2020 - 2022"
-            iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date={<span style={{ color: "white" }}>2023 - 2023</span>}
+            iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<SiReact />}
           >
             <h3 className="vertical-timeline-element-title">Learning Intern</h3>
