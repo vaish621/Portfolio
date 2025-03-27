@@ -36,7 +36,7 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div className="min-h-screen bg-emerald-900 relative overflow-hidden flex items-center justify-center">
+    <div className="min-h-screen bg-black relative overflow-hidden flex items-center justify-center">
       <div className="starfield absolute inset-0">
         <div className="stars"></div>
         <div className="stars2"></div>
